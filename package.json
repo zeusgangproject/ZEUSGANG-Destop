@@ -1,0 +1,28 @@
+{
+  "name": "zeusgang",
+  "version": "1.0.0",
+  "description": "zeusgang",
+  "main": "src/main/index.js",
+  "author": {
+    "name": "Zeus Gang",
+    "url": "https://rwstudio.nim.town"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder build",
+    "pack": "build --dir"
+  },
+  "build": {
+    "appId": "com.zeus.gang",
+    "icon": "build/logo.ico",
+    "productName": "Zeus Gang"
+  },
+  "devDependencies": {
+    "electron": "^13.1.7",
+    "electron-builder": "^23.6.0"
+  },
+  "dependencies": {
+    "discord-rpc": "^4.0.1"
+  }
+}
